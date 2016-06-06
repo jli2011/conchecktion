@@ -1,4 +1,4 @@
-# conchecktion
+# Conchecktion
 Checks for internet connection and notifies user once network is found
 
 **State of Applicaiton:**
