@@ -1,0 +1,15 @@
+while ("true")
+{
+    if (Test-Connection "google.com" -count 4 -quiet) #if there is a connection
+        {
+            write-host "Internet is Online!"
+            #display dialog box
+            $wshell = New-Object -ComObject Wscript.Shell
+            $wshell.Popup("Internet is Online!",0,"Network Status", 0x0)
+            Exit #exit program
+        }
+    else
+        {
+            write-host "Internet is Offline."
+        }
+}
