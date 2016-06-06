@@ -7,7 +7,7 @@ Complete
 
 **Description:**
 
-This code is used to display a prompt once an internet connection is detected. This is, in a way, a continuous ping test to the internet that lets users know once the internet is online. 
+This code displays a prompt once an internet connection is detected. This is, in a way, a continuous ping test to the internet that lets users know once the internet is online or back online. 
 
 **Requirements:**
 
